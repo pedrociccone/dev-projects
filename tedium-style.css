@@ -1,0 +1,54 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    max-width: 150ch;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: palevioletred;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.content {
+    margin: 1.5em;
+    text-align: justify;
+    margin-bottom: 3em;
+}
+
+.content > p {
+    margin-top: 1em;
+}
+
+.author {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.author > span {
+    font-size: 12px;
+    margin-right: 1.5em;
+}
+
+button {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.footer {
+    margin: 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer > button {
+    margin-left: 1em;
+}
