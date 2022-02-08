@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    padding: 1.5em;
+    background: #F1F1F1;
+}
+
+.menu {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FF6A28;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.links {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 31px;
+}
+
+.links > a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 16px;
+}
+
+.content-background {
+    padding: 1.5em;
+    padding-bottom: 0;
+    background: #FF6A28;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 1200px;
+    border-radius: 5px;
+    background-color: #F1F1F1;
+}
+
+.content > h1 {
+    font-size: 24px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.content > p {
+    font-size: 12px;
+    margin: 8px 0;
+    color: #777;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 266px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px;
+    line-height: 25px;
+}
+
+ol {
+    margin: 20px;
+    line-height: 25px;
+}
+
+.content > span {
+    display: inline;
+    font-weight: bold;
+    color: #777;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+tr:nth-child(2n - 1) {
+    background: rgb(252, 211, 135);
+}
+
+tr:nth-child(2n) {
+    background: rgb(252, 180, 47);
+}
