@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: rgb(44, 63, 52);
+}
+
+.score {
+    color: rgb(44, 63, 52);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #7E8D85;
+    border-radius: 5px;
+    background-color: #C4C4C4;;
+    width: 600px;
+    height: 327px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.teams {
+    font-weight: bold;
+    padding: 1em;
+    border-bottom: 1px solid rgb(44, 63, 52);
+}
+
+.teams-a {
+    margin-right: 260px;
+}
+
+.result {
+    font-family: "Michroma", sans-serif;
+    padding: 2em;
+    border-bottom: 1px solid rgb(44, 63, 52);
+}
+
+.result-a, .result-b {
+    font-size: 96px;
+}
+
+.result-a {
+    margin-right: 50px;
+}
+
+.result-b {
+    margin-left: 50px;
+}
+
+.result-x {
+    font-size: 40px;
+}
+
+.sets {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0.5em;
+
+}
+
+.sets-a {
+    margin-right: 310px;
+}
