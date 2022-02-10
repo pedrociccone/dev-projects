@@ -1,0 +1,64 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+form, h1 {
+    margin-left: 50px;
+}
+
+input {
+    display: block;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.estado > select {
+    display: block;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+label.fonte input {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+label p {
+    margin-top: 20px;
+}
+
+textarea {
+    display: block;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.termos {
+    display: inline-block;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em 2em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"></head>
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        <div>
+            <label>
+                Nome
+                <input name="nome">
+            </label>
+        </div>
+        <div>
+            <label>
+                E-mail
+                <input type="email" name="email">
+            </label>
+        </div>
+        <div>
+            <label>
+                Idade
+                <input type="number" name="idade">
+            </label>
+        </div>
+        <div>
+            <label>
+                CPF
+                <input inputmode="numeric" name="cpf">
+            </label>
+        </div>
+        <div>
+            <label>
+                Telefone de contato
+                <input type="tel" name="tel">
+            </label>
+        </div>
+
+        <h2>Endereço</h2>
+        <div>
+            <label>
+                Endereço
+                <input type="name" name="endereco">
+            </label>
+        </div>
+        <div>
+            <label>
+                Cidade
+                <input type="name" name="cidade">
+            </label>
+        </div>
+        <div>
+            <label class="estado">
+                Estado
+                <select>
+                    <option></option>
+                    <option value="ac">AC</option>
+                    <option value="al">AL</option>
+                    <option value="am">AM</option>
+                    <option value="ap">AP</option>
+                    <option value="ba">BA</option>
+                    <option value="ce">CE</option>
+                    <option value="df">DF</option>
+                    <option value="es">ES</option>
+                    <option value="go">GO</option>
+                    <option value="ma">MA</option>
+                    <option value="mg">MG</option>
+                    <option value="ms">MS</option>
+                    <option value="mt">MT</option>
+                    <option value="pa">PA</option>
+                    <option value="pb">PB</option>
+                    <option value="pe">PE</option>
+                    <option value="pi">PI</option>
+                    <option value="pr">PR</option>
+                    <option value="rj">RJ</option>
+                    <option value="rn">RN</option>
+                    <option value="ro">RO</option>
+                    <option value="rr">RR</option>
+                    <option value="rs">RS</option>
+                    <option value="sc">SC</option>
+                    <option value="se">SE</option>
+                    <option value="sp">SP</option>
+                    <option value="to">TO</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                CEP
+                <input inputmode="numeric" name="cep">
+            </label>
+        </div>
+        <div>
+            <label class="fonte">
+                <b>Como nos conheceu?</b>
+                <div>
+                    <input type="radio" name="fonte">
+                    <span>Facebook</span>
+                </div>
+                <div>
+                    <input type="radio" name="fonte">
+                    <span>Instagram</span>
+                </div>
+                <div>
+                    <input type="radio" name="fonte">
+                    <span>LinkedIn</span>
+                </div>
+                <div>
+                    <input type="radio" name="fonte">
+                    <span>E-mail</span>
+                </div>
+                <div>
+                    <input type="radio" name="fonte">
+                    <span>Indicação de amigos</span>
+                </div>
+                <div>
+                    <input type="radio" name="fonte">
+                    <span>Outros</span>
+                </div>
+            </label>
+        </div>
+        <div>
+            <label>
+                <p>Conte-nos mais sobre como nos descobriu:</p>
+                <textarea cols="40" rows="4"></textarea>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input class="termos" type="checkbox" name="termos">
+                Aceito os termos de uso e política de privacidade
+            </label>
+        </div>
+        <button>Se cadastrar</button>
+    </form>
+</body>
+</html>
