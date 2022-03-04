@@ -45,6 +45,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+p {
+    font-size: 14px;
+}
+
 h1, p, h2, .preco, button {
     text-align: center;
 }
