@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 1em;
+}
+
+label {
+    display: block;
+    margin: 1em 2em;
+}
+
+button {
+    margin: 1em 2em;
+}
