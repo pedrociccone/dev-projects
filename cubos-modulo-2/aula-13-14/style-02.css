@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    margin: 1em;
+}
+
+button {
+    margin-top: 0.5em;
+    padding: 0.2em 0.5em;
+}
+
+.diminuir {
+    margin-left: 0.5px;
+}
