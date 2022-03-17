@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;    
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+input {
+    display: block;
+    margin: 16px 0;
+}
+
+button {
+    margin-bottom: 16px;
+}
+
+hr {
+    border: 1px solid rgb(136, 136, 136); 
+}
+
+img {
+    max-width: 200px;
+}
