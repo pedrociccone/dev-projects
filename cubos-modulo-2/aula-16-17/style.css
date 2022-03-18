@@ -1,0 +1,35 @@
+body {
+    margin: 1em;
+    font-family: "Open Sans", sans-serif;
+    max-width: 400px;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+li input {
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+li button {
+    margin-left: auto;
+}
+
+.done .text {
+    text-decoration: line-through;
+}
