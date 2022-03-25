@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    min-width: 450px;
+    min-height: 250px;
+    background-color: aqua;
+    margin: 1em;
+}
+
+button {
+    margin: 1em;
+}
